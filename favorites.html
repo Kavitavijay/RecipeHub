@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Favorite Recipes | RecipeHub</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/cards.css">
+    <link rel="stylesheet" href="css/favorites.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+
+<body>
+
+<header>
+
+<nav class="navbar">
+
+<div class="logo">
+
+<a href="index.html">
+
+🍽 RecipeHub
+
+</a>
+
+</div>
+
+<ul class="nav-links">
+
+<li><a href="index.html">Home</a></li>
+
+<li><a href="index.html#recipes">Recipes</a></li>
+
+<li><a href="favorites.html" class="active">Favorites</a></li>
+
+<li><a href="about.html">About</a></li>
+
+<li><a href="contact.html">Contact</a></li>
+
+</ul>
+
+<div class="menu-toggle">
+
+<span></span>
+<span></span>
+<span></span>
+
+</div>
+
+</nav>
+
+</header>
+
+<main class="container">
+
+<section class="page-header">
+
+<h1>❤️ Favorite Recipes</h1>
+
+<p>
+
+Your saved recipes.
+
+</p>
+
+</section>
+
+<section class="search-section">
+
+<input
+
+type="text"
+
+id="favoriteSearch"
+
+placeholder="Search favorites...">
+
+<button
+
+id="clearFavorites"
+
+class="btn">
+
+Clear All
+
+</button>
+
+</section>
+
+<section class="favorites-count-section">
+
+    <h2 class="favorites-heading">
+         Total Favorites:
+        <span id="favoriteCount">0</span>
+    </h2>
+
+</section>
+
+<section
+id="favoritesContainer"
+
+class="recipes-grid favorites-grid">
+
+</section>
+
+</main>
+
+<footer>
+
+<div class="container">
+
+<p>
+
+© 2026 RecipeHub
+
+</p>
+
+</div>
+
+</footer>
+
+<script
+type="module"
+src="js/favorites.js"></script>
+<script type="module" src="js/app.js"></script>
+
+</body>
+
+</html>
