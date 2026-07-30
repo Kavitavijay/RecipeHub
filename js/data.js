@@ -60,7 +60,7 @@ export const recipes = [
     ],
 
     instructions: [
-        "Cook pasta until al dente.",
+        "Cook pasta until it is firm but fully cooked.",
         "Season chicken with salt and pepper.",
         "Grill chicken until golden brown.",
         "Prepare Alfredo sauce using butter, garlic, cream and parmesan.",
