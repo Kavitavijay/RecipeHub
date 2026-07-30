@@ -2,6 +2,12 @@
 
 RecipeHub is a responsive recipe discovery web application built using HTML, CSS, and JavaScript.
 
+## 🌐 Live Demo
+
+👉 https://kavitavijay.github.io/RecipeHub/
+
+
+
 ## Features
 
 * Recipe Search
